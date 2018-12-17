@@ -1,3 +1,6 @@
-<p>
-  teachers works!
-</p>
+<main>
+  <div *ngFor="let teacher of teachers">
+    <p id="name">{{teacher.name}}</p>
+    <p id="subject">{{teacher.subject}}</p>
+  </div>
+</main>
