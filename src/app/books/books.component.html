@@ -1,3 +1,6 @@
-<p>
-  books works!
-</p>
+<main>
+  <div *ngFor="let book of books">
+    <a href={{book.source}}><img src={{book.image}}></a>
+    <a href={{book.source}}>{{book.title}}</a>
+  </div>
+</main>
