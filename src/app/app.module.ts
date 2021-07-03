@@ -12,6 +12,7 @@ import { BooksComponent } from './books/books.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginComponent } from './login/login.component';
 import { AdminComponent } from './admin/admin.component';
+import { FooterComponent } from './footer/footer.component';
 
 let routes:Routes = [
   { path: '', component: NewsComponent },
@@ -33,7 +34,8 @@ let routes:Routes = [
     TeachersComponent,
     BooksComponent,
     LoginComponent,
-    AdminComponent
+    AdminComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
